@@ -78,7 +78,7 @@ def setup():
 	    <a href="https://hack.aau.dk"><i class="fab fa-facebook" aria-hidden="true"></i>&nbsp;AAU Hackers &amp; Friends</a>
 	</p>
     </div>
-</div>""".format(request.script_root)
+</div>"""
 
             page = Pages(title=None, route='index', html=index, draft=False)
 
