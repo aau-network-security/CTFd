@@ -50,7 +50,7 @@ def setup():
 	<p class="text-center">
 	    A platform for Cyber Security Exercises 
 	</p>
-	<p>
+	<p class="text-center">
 	    Founded by <a href="http://danishcybersecurityclusters.dk/">Danish Cyber Security Clusters</a>
 	</p>
 	<a href="http://danishcybersecurityclusters.dk/">
