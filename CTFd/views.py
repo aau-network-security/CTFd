@@ -72,6 +72,11 @@ def setup():
 	    </div>
 	</p>
 	<p class="text-center" style="margin-top: 40px">
+	    <b>
+		Fill in <a href="https://www.survey-xact.dk/LinkCollector?key=5DWWK8HZ15C2" target="_blank">our survey</a> to let us know about your experiences
+		</b> 		
+	</p>
+	<p class="text-center">
 	    Feel free to join our local Facebook Group:
 	</p>
 	<p class="text-center">
