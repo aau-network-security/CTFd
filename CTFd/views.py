@@ -71,11 +71,28 @@ def setup():
 	    </div>
 	    </div>
 	</p>
-	<p class="text-center" style="margin-top: 40px">
-	    <b>
-		Fill in <a href="https://www.survey-xact.dk/LinkCollector?key=5DWWK8HZ15C2" target="_blank">our survey</a> to let us know about your experiences
-		</b> 		
-	</p>
+	<div class="card-deck py-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Tips and tricks</h5>
+                <div class="card-text">
+                    Stuck at a certain challenge? Or do you just want to know more about a certain topic?
+                </div>
+            </div>
+            <div class="card-footer">
+                <a href="https://aau-network-security.github.io/tips-and-tricks/" target="_blank">Vist the tips & tricks page</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Survey</h5>
+                <p>You can help us improve the platform by taking our survey to let us know about your experiences!</p>
+            </div>
+            <div class="card-footer">
+                <a href="https://www.survey-xact.dk/LinkCollector?key=5DWWK8HZ15C2" target="_blank">Fill out the survey here</a>
+            </div>
+        </div>
+    </div>
 	<p class="text-center">
 	    Feel free to join our local Facebook Group:
 	</p>
