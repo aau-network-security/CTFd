@@ -44,17 +44,17 @@ def setup():
      .col { float: left; }
     </style>
     <div class="col-md-6 offset-md-3">
-	<h3 class="text-center" style="padding-top: 10vh;">
-	    <p>National Training Platform</p>
-	</h3>
+	<h1 class="text-center" style="padding-top: 10vh; font-size: 50px;">
+	    <b>Haaukins</b>
+	</h1>
 	<p class="text-center">
 	    A platform for Cyber Security Exercises 
 	</p>
 	<p class="text-center">
-	    Founded by <a href="http://danishcybersecurityclusters.dk/">Danish Cyber Security Clusters</a>
+	    Founded by <a href="http://danishcybersecurityclusters.dk/">Danish Cyber Security Clusters</a> and supported by
 	</p>
-	<a href="http://danishcybersecurityclusters.dk/">
-	    <img class="w-100 mx-auto d-block" style="max-width: 300px; padding: 3vh 0 4vh 0;" src="/themes/core/static/img/dcsc_logo.png">
+	<a href="https://www.industriensfond.dk/">
+	    <img class="w-100 mx-auto d-block" style="max-width: 300px; padding: 3vh 0 4vh 0;" src="/themes/core/static/img/logo_industrienfond.jpg">
 	</a>
 	<p class="text-center">
 	    <p class="text-center">
