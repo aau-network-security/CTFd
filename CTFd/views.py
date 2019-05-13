@@ -45,7 +45,7 @@ def setup():
     </style>
     <div class="col-md-6 offset-md-3">
 	<h1 class="text-center" style="padding-top: 10vh; font-size: 50px;">
-	    <b>Haaukins</b>
+	    <b>Cyber Security Training Platform</b>
 	</h1>
 	<p class="text-center">
 	    A platform for Cyber Security Exercises 
