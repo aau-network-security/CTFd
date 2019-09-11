@@ -45,7 +45,7 @@ def setup():
     </style>
     <div class="col-md-6 offset-md-3">
 	<h1 class="text-center" style="padding-top: 10vh; font-size: 50px;">
-	    <b>Cyber Security Training Platform</b>
+	    <b>Haaukins</b>
 	</h1>
 	<p class="text-center">
 	    A platform for Cyber Security Exercises 
@@ -65,6 +65,7 @@ def setup():
 	      <img src="/themes/core/static/img/logo.png" style="margin-left: 40px; max-width: 120px;">
 	    </div>
 		<div class="col" style="width: 60%; font-size:14px;">
+		    <p><a href="https://github.com/mrturkmen06">Ahmet Turkmen</a> (Research Assistant)</p>
 		    <p><a href="https://github.com/kdhageman">Kaspar Hageman</a> (Ph.D. Student)</p>
 		    <p><a href="https://github.com/tpanum">Thomas Kobber Panum</a> (Ph.D. Student)</p>
 		    <p><a href="https://github.com/eyJhb">Johan Hempel Bengtson</a> (Student Helper)</p>
