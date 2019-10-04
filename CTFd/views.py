@@ -39,68 +39,94 @@ def setup():
             # Index page
 
             index = """<div class="row">
-    <style>
-     .col-container:after { content: ""; display: table; clear: both; }
-     .col { float: left; }
-    </style>
-    <div class="col-md-6 offset-md-3">
-	<h1 class="text-center" style="padding-top: 10vh; font-size: 50px;">
-	    <b>Haaukins</b>
-	</h1>
-	<p class="text-center">
-	    A platform for Cyber Security Exercises 
-	</p>
-	<p class="text-center">
-	    Founded by <a href="http://danishcybersecurityclusters.dk/">Danish Cyber Security Clusters</a> and supported by
-	</p>
-	<a href="https://www.industriensfond.dk/">
-	    <img class="w-100 mx-auto d-block" style="max-width: 300px; padding: 3vh 0 4vh 0;" src="/themes/core/static/img/logo_industrienfond.jpg">
-	</a>
-	<p class="text-center">
-	    <p class="text-center">
-		Developed at <a href="http://es.aau.dk/">Aalborg University</a> (Department of Electronic Systems) by:
-	    </p>
-	    <div class="col-container" style="margin-top: 40px;">
-		<div class="col" style="width: 40%">
-	      <img src="/themes/core/static/img/logo.png" style="margin-left: 40px; max-width: 120px;">
-	    </div>
-		<div class="col" style="width: 60%; font-size:14px;">
-		    <p><a href="https://github.com/mrturkmen06">Ahmet Turkmen</a> (Research Assistant)</p>
-		    <p><a href="https://github.com/kdhageman">Kaspar Hageman</a> (Ph.D. Student)</p>
-		    <p><a href="https://github.com/tpanum">Thomas Kobber Panum</a> (Ph.D. Student)</p>
-		    <p><a href="https://github.com/eyJhb">Johan Hempel Bengtson</a> (Student Helper)</p>
-	    </div>
-	    </div>
-	</p>
-	<div class="card-deck py-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Tips and tricks</h5>
-                <div class="card-text">
-                    Stuck at a certain challenge? Or do you just want to know more about a certain topic?
-                </div>
-            </div>
-            <div class="card-footer">
-                <a href="https://aau-network-security.github.io/tips-and-tricks/" target="_blank">Vist the tips & tricks page</a>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Survey</h5>
-                <p>You can help us improve the platform by taking our survey to let us know about your experiences!</p>
-            </div>
-            <div class="card-footer">
-                <a href="https://www.survey-xact.dk/LinkCollector?key=5DWWK8HZ15C2" target="_blank">Fill out the survey here</a>
-            </div>
-        </div>
+  <style>
+   .col-container:after { content: ""; display: table; clear: both; }
+   .col { float: left; }
+   .clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+    }
+    .footer-nav{
+      float: left;
+    }
+    .logo{
+      float: right;
+    }
+    .footer-nav,
+    .footer-nav li{
+      display: inline;
+    }
+  </style>
+  <div class="col-md-6 offset-md-3">
+<h1 class="text-center" style="padding-top: 10vh; font-size: 50px;">
+    <b>Haaukins</b>
+</h1>
+<p class="text-center">
+    A platform for Cyber Security Exercises 
+</p>
+<p class="text-center">
+    Founded by <a href="http://danishcybersecurityclusters.dk/">Danish Cyber Security Clusters</a> and supported by
+</p>
+<a href="https://www.industriensfond.dk/">
+    <img class="w-100 mx-auto d-block" style="max-width: 300px; padding: 3vh 0 4vh 0;" src="/themes/core/static/img/logo_industrienfond.jpg">
+</a>
+<p class="text-center">
+    <p class="text-center">
+  Developed at <a href="http://es.aau.dk/">Aalborg University</a> (Department of Electronic Systems) by:
+    </p>
+    <div class="col-container" style="margin-top: 40px;">
+  <div class="col" style="width: 40%">
+          <img src="/themes/core/static/img/haaukins_logo_blue240px.png" style="margin-left: 20px; max-width: 170px;">
     </div>
-	<p class="text-center">
-	    Feel free to join our local Facebook Group:
-	</p>
-	<p class="text-center">
-	    <a href="https://hack.aau.dk"><i class="fab fa-facebook" aria-hidden="true"></i>&nbsp;AAU Hackers &amp; Friends</a>
-	</p>
+  <div class="col" style="width: 60%; font-size:14px;">
+      <p><a href="https://github.com/mrturkmen06">Ahmet Turkmen</a> (Research Assistant)</p>
+      <p><a href="https://github.com/kdhageman">Kaspar Hageman</a> (Ph.D. Student)</p>
+      <p><a href="https://github.com/tpanum">Thomas Kobber Panum</a> (Ph.D. Student)</p>
+      <p><a href="https://github.com/eyJhb">Johan Hempel Bengtson</a> (Student Helper)</p>
     </div>
+    </div>
+</p>
+<div class="card-deck py-4">
+      <div class="card">
+          <div class="card-body">
+              <h5 class="card-title">Tips and tricks</h5>
+              <div class="card-text">
+                  Stuck at a certain challenge? Or do you just want to know more about a certain topic?
+              </div>
+          </div>
+          <div class="card-footer">
+              <a href="https://aau-network-security.github.io/tips-and-tricks/" target="_blank">Vist the tips & tricks page</a>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-body">
+              <h5 class="card-title">Survey</h5>
+              <p>You can help us improve the platform by taking our survey to let us know about your experiences!</p>
+          </div>
+          <div class="card-footer">
+              <a href="https://www.survey-xact.dk/LinkCollector?key=5DWWK8HZ15C2" target="_blank">Fill out the survey here</a>
+          </div>
+      </div>
+  </div>
+<p class="text-center">
+    Feel free to join our local Facebook Group:
+</p>
+<p class="text-center">
+    <a href="https://hack.aau.dk"><i class="fab fa-facebook" aria-hidden="true"></i>&nbsp;AAU Hackers &amp; Friends</a>
+</p>
+  <div class="container">
+      <footer>
+          <ul class="footer-nav">
+              <li><a href="https://eadania.dk/"> <img src="/themes/core/static/img/da-90.png" style= "width:90px; height:75px;" ></a></li>
+              <li><a href="https://www.dtu.dk/"><img src="/themes/core/static/img/dtu-90.png" style= "width:90px; height:75px;"></a></li>
+              <li><a href="https://kea.dk/"> <img src="/themes/core/static/img/kea-90.jpg" style= "width:90px; height:75px;" ></a></li>
+              <li><a href="https://happy42.dk/"> <img src="/themes/core/static/img/happy-90.png" style= "width:90px; height:75px;" ></a></li>
+               <li><a href="https://www.eaaa.dk/"><img src="/themes/core/static/img/eaa-90.png" style= "width:90px; height:75px;"></a></li>
+         </ul>
+      </footer>
+      </div>
+  </div>    
 </div>"""
 
             page = Pages(title=None, route='index', html=index, draft=False)
