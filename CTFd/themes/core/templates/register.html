@@ -30,7 +30,7 @@
 					<label for="email-input">
 						Email
 					</label>
-					<input class="form-control" type="text" name="email" id="email-input" {% if email %}value="{{ email }}"{% endif %} required/>
+					<input class="form-control" type="email" name="email" id="email-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" {% if email %}value="{{ email }}"{% endif %} required/>
 				</div>
 				<div class="form-group">
 					<label for="password-input">
