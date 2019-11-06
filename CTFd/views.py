@@ -113,7 +113,7 @@ def setup():
     Feel free to join our local Facebook Group:
 </p>
 <p class="text-center">
-    <a href="https://hack.aau.dk"><i class="fab fa-facebook" aria-hidden="true"></i>&nbsp;AAU Hackers &amp; Friends</a>
+    <a href="https://www.facebook.com/groups/957517617737780"><i class="fab fa-facebook" aria-hidden="true"></i>&nbsp;AAU Hackers &amp; Friends</a>
 </p>
   <div class="container">
       <footer>
