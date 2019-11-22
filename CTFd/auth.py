@@ -137,7 +137,7 @@ def reset_password(data=None):
 
 
 @auth.route('/register', methods=['POST', 'GET'])
-@ratelimit(method="POST", limit=10, interval=5)
+@ratelimit(method="POST", limit=50, interval=300)
 def register():
     logger = logging.getLogger('regs')
     if not utils.can_register():
