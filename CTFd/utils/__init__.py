@@ -319,7 +319,7 @@ def authed_only(f):
     return decorated_function
 
 
-def ratelimit(method="POST", limit=50, interval=300, key_prefix="rl"):
+def ratelimit(method="POST", limit=50, interval=2400, key_prefix="rl"):
     def ratelimit_decorator(f):
         @functools.wraps(f)
         def decorated_function(*args, **kwargs):
