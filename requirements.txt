@@ -21,3 +21,4 @@ datafreeze==0.1.0
 gevent==1.2.2
 python-dotenv==0.8.2
 normality==0.6.1
+Werkzeug==0.16.0
