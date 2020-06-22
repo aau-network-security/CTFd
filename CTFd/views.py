@@ -80,7 +80,8 @@ def setup():
           <img src="/themes/core/static/img/haaukins_logo_blue240px.png" style="margin-left: 20px; max-width: 170px;">
     </div>
   <div class="col" style="width: 60%; font-size:14px;">
-      <p><a href="https://github.com/mrturkmen06">Ahmet Turkmen</a> (Research Assistant)</p>
+      <p><a href="https://mrturkmen.com">Ahmet Turkmen</a> (Research Assistant)</p>
+      <p><a href="https://github.com/eyJhb">Gian Marco Mennecozzi</a> (Research Assistant)</p>
       <p><a href="https://github.com/kdhageman">Kaspar Hageman</a> (Ph.D. Student)</p>
       <p><a href="https://github.com/tpanum">Thomas Kobber Panum</a> (Ph.D. Student)</p>
       <p><a href="https://github.com/eyJhb">Johan Hempel Bengtson</a> (Student Helper)</p>
@@ -105,7 +106,7 @@ def setup():
               <p>You can help us improve the platform by taking our survey to let us know about your experiences!</p>
           </div>
           <div class="card-footer">
-              <a href="https://www.survey-xact.dk/LinkCollector?key=5DWWK8HZ15C2" target="_blank">Fill out the survey here</a>
+              <a href="https://www.survey-xact.dk/LinkCollector?key=KDRVSTDJJN15" target="_blank">Fill out the survey here</a>
           </div>
       </div>
   </div>
